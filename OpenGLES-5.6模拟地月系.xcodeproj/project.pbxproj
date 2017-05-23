@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		835CF9291ED424CF003D057B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF9281ED424CF003D057B /* main.m */; };
+		835CF92C1ED424CF003D057B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF92B1ED424CF003D057B /* AppDelegate.m */; };
+		835CF92F1ED424CF003D057B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF92E1ED424CF003D057B /* ViewController.m */; };
+		835CF9321ED424CF003D057B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835CF9301ED424CF003D057B /* Main.storyboard */; };
+		835CF9341ED424CF003D057B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835CF9331ED424CF003D057B /* Assets.xcassets */; };
+		835CF9371ED424CF003D057B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835CF9351ED424CF003D057B /* LaunchScreen.storyboard */; };
+		835CF9421ED424CF003D057B /* OpenGLES_5_6_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF9411ED424CF003D057B /* OpenGLES_5_6_____Tests.m */; };
+		835CF94D1ED424CF003D057B /* OpenGLES_5_6_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF94C1ED424CF003D057B /* OpenGLES_5_6_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		835CF93E1ED424CF003D057B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835CF91C1ED424CF003D057B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835CF9231ED424CF003D057B;
+			remoteInfo = "OpenGLES-5.6模拟地月系";
+		};
+		835CF9491ED424CF003D057B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835CF91C1ED424CF003D057B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835CF9231ED424CF003D057B;
+			remoteInfo = "OpenGLES-5.6模拟地月系";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		835CF9241ED424CF003D057B /* OpenGLES-5.6模拟地月系.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES-5.6模拟地月系.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		835CF9281ED424CF003D057B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		835CF92A1ED424CF003D057B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		835CF92B1ED424CF003D057B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		835CF92D1ED424CF003D057B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		835CF92E1ED424CF003D057B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		835CF9311ED424CF003D057B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		835CF9331ED424CF003D057B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		835CF9361ED424CF003D057B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		835CF9381ED424CF003D057B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835CF93D1ED424CF003D057B /* OpenGLES-5.6模拟地月系Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES-5.6模拟地月系Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		835CF9411ED424CF003D057B /* OpenGLES_5_6_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLES_5_6_____Tests.m"; sourceTree = "<group>"; };
+		835CF9431ED424CF003D057B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835CF9481ED424CF003D057B /* OpenGLES-5.6模拟地月系UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES-5.6模拟地月系UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		835CF94C1ED424CF003D057B /* OpenGLES_5_6_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLES_5_6_____UITests.m"; sourceTree = "<group>"; };
+		835CF94E1ED424CF003D057B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835CF9211ED424CF003D057B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835CF93A1ED424CF003D057B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835CF9451ED424CF003D057B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835CF91B1ED424CF003D057B = {
+			isa = PBXGroup;
+			children = (
+				835CF9261ED424CF003D057B /* OpenGLES-5.6模拟地月系 */,
+				835CF9401ED424CF003D057B /* OpenGLES-5.6模拟地月系Tests */,
+				835CF94B1ED424CF003D057B /* OpenGLES-5.6模拟地月系UITests */,
+				835CF9251ED424CF003D057B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		835CF9251ED424CF003D057B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835CF9241ED424CF003D057B /* OpenGLES-5.6模拟地月系.app */,
+				835CF93D1ED424CF003D057B /* OpenGLES-5.6模拟地月系Tests.xctest */,
+				835CF9481ED424CF003D057B /* OpenGLES-5.6模拟地月系UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835CF9261ED424CF003D057B /* OpenGLES-5.6模拟地月系 */ = {
+			isa = PBXGroup;
+			children = (
+				835CF92A1ED424CF003D057B /* AppDelegate.h */,
+				835CF92B1ED424CF003D057B /* AppDelegate.m */,
+				835CF92D1ED424CF003D057B /* ViewController.h */,
+				835CF92E1ED424CF003D057B /* ViewController.m */,
+				835CF9301ED424CF003D057B /* Main.storyboard */,
+				835CF9331ED424CF003D057B /* Assets.xcassets */,
+				835CF9351ED424CF003D057B /* LaunchScreen.storyboard */,
+				835CF9381ED424CF003D057B /* Info.plist */,
+				835CF9271ED424CF003D057B /* Supporting Files */,
+			);
+			path = "OpenGLES-5.6模拟地月系";
+			sourceTree = "<group>";
+		};
+		835CF9271ED424CF003D057B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				835CF9281ED424CF003D057B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		835CF9401ED424CF003D057B /* OpenGLES-5.6模拟地月系Tests */ = {
+			isa = PBXGroup;
+			children = (
+				835CF9411ED424CF003D057B /* OpenGLES_5_6_____Tests.m */,
+				835CF9431ED424CF003D057B /* Info.plist */,
+			);
+			path = "OpenGLES-5.6模拟地月系Tests";
+			sourceTree = "<group>";
+		};
+		835CF94B1ED424CF003D057B /* OpenGLES-5.6模拟地月系UITests */ = {
+			isa = PBXGroup;
+			children = (
+				835CF94C1ED424CF003D057B /* OpenGLES_5_6_____UITests.m */,
+				835CF94E1ED424CF003D057B /* Info.plist */,
+			);
+			path = "OpenGLES-5.6模拟地月系UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835CF9231ED424CF003D057B /* OpenGLES-5.6模拟地月系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835CF9511ED424CF003D057B /* Build configuration list for PBXNativeTarget "OpenGLES-5.6模拟地月系" */;
+			buildPhases = (
+				835CF9201ED424CF003D057B /* Sources */,
+				835CF9211ED424CF003D057B /* Frameworks */,
+				835CF9221ED424CF003D057B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLES-5.6模拟地月系";
+			productName = "OpenGLES-5.6模拟地月系";
+			productReference = 835CF9241ED424CF003D057B /* OpenGLES-5.6模拟地月系.app */;
+			productType = "com.apple.product-type.application";
+		};
+		835CF93C1ED424CF003D057B /* OpenGLES-5.6模拟地月系Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835CF9541ED424CF003D057B /* Build configuration list for PBXNativeTarget "OpenGLES-5.6模拟地月系Tests" */;
+			buildPhases = (
+				835CF9391ED424CF003D057B /* Sources */,
+				835CF93A1ED424CF003D057B /* Frameworks */,
+				835CF93B1ED424CF003D057B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				835CF93F1ED424CF003D057B /* PBXTargetDependency */,
+			);
+			name = "OpenGLES-5.6模拟地月系Tests";
+			productName = "OpenGLES-5.6模拟地月系Tests";
+			productReference = 835CF93D1ED424CF003D057B /* OpenGLES-5.6模拟地月系Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		835CF9471ED424CF003D057B /* OpenGLES-5.6模拟地月系UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835CF9571ED424CF003D057B /* Build configuration list for PBXNativeTarget "OpenGLES-5.6模拟地月系UITests" */;
+			buildPhases = (
+				835CF9441ED424CF003D057B /* Sources */,
+				835CF9451ED424CF003D057B /* Frameworks */,
+				835CF9461ED424CF003D057B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				835CF94A1ED424CF003D057B /* PBXTargetDependency */,
+			);
+			name = "OpenGLES-5.6模拟地月系UITests";
+			productName = "OpenGLES-5.6模拟地月系UITests";
+			productReference = 835CF9481ED424CF003D057B /* OpenGLES-5.6模拟地月系UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		835CF91C1ED424CF003D057B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ShiWen;
+				TargetAttributes = {
+					835CF9231ED424CF003D057B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					835CF93C1ED424CF003D057B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 835CF9231ED424CF003D057B;
+					};
+					835CF9471ED424CF003D057B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 835CF9231ED424CF003D057B;
+					};
+				};
+			};
+			buildConfigurationList = 835CF91F1ED424CF003D057B /* Build configuration list for PBXProject "OpenGLES-5.6模拟地月系" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 835CF91B1ED424CF003D057B;
+			productRefGroup = 835CF9251ED424CF003D057B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835CF9231ED424CF003D057B /* OpenGLES-5.6模拟地月系 */,
+				835CF93C1ED424CF003D057B /* OpenGLES-5.6模拟地月系Tests */,
+				835CF9471ED424CF003D057B /* OpenGLES-5.6模拟地月系UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835CF9221ED424CF003D057B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835CF9371ED424CF003D057B /* LaunchScreen.storyboard in Resources */,
+				835CF9341ED424CF003D057B /* Assets.xcassets in Resources */,
+				835CF9321ED424CF003D057B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835CF93B1ED424CF003D057B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835CF9461ED424CF003D057B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835CF9201ED424CF003D057B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835CF92F1ED424CF003D057B /* ViewController.m in Sources */,
+				835CF92C1ED424CF003D057B /* AppDelegate.m in Sources */,
+				835CF9291ED424CF003D057B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835CF9391ED424CF003D057B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835CF9421ED424CF003D057B /* OpenGLES_5_6_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835CF9441ED424CF003D057B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835CF94D1ED424CF003D057B /* OpenGLES_5_6_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		835CF93F1ED424CF003D057B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835CF9231ED424CF003D057B /* OpenGLES-5.6模拟地月系 */;
+			targetProxy = 835CF93E1ED424CF003D057B /* PBXContainerItemProxy */;
+		};
+		835CF94A1ED424CF003D057B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835CF9231ED424CF003D057B /* OpenGLES-5.6模拟地月系 */;
+			targetProxy = 835CF9491ED424CF003D057B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		835CF9301ED424CF003D057B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835CF9311ED424CF003D057B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		835CF9351ED424CF003D057B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835CF9361ED424CF003D057B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		835CF94F1ED424CF003D057B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		835CF9501ED424CF003D057B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		835CF9521ED424CF003D057B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenGLES-5.6模拟地月系/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES-5-6-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		835CF9531ED424CF003D057B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenGLES-5.6模拟地月系/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES-5-6-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		835CF9551ED424CF003D057B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OpenGLES-5.6模拟地月系Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES-5-6-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES-5.6模拟地月系.app/OpenGLES-5.6模拟地月系";
+			};
+			name = Debug;
+		};
+		835CF9561ED424CF003D057B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OpenGLES-5.6模拟地月系Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES-5-6-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES-5.6模拟地月系.app/OpenGLES-5.6模拟地月系";
+			};
+			name = Release;
+		};
+		835CF9581ED424CF003D057B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OpenGLES-5.6模拟地月系UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES-5-6-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES-5.6模拟地月系";
+			};
+			name = Debug;
+		};
+		835CF9591ED424CF003D057B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OpenGLES-5.6模拟地月系UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES-5-6-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES-5.6模拟地月系";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835CF91F1ED424CF003D057B /* Build configuration list for PBXProject "OpenGLES-5.6模拟地月系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835CF94F1ED424CF003D057B /* Debug */,
+				835CF9501ED424CF003D057B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835CF9511ED424CF003D057B /* Build configuration list for PBXNativeTarget "OpenGLES-5.6模拟地月系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835CF9521ED424CF003D057B /* Debug */,
+				835CF9531ED424CF003D057B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		835CF9541ED424CF003D057B /* Build configuration list for PBXNativeTarget "OpenGLES-5.6模拟地月系Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835CF9551ED424CF003D057B /* Debug */,
+				835CF9561ED424CF003D057B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		835CF9571ED424CF003D057B /* Build configuration list for PBXNativeTarget "OpenGLES-5.6模拟地月系UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835CF9581ED424CF003D057B /* Debug */,
+				835CF9591ED424CF003D057B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 835CF91C1ED424CF003D057B /* Project object */;
+}
