@@ -146,11 +146,14 @@ static const GLfloat  SceneMoonDistanceFromEarth = 1.0;
     self.mBaseEffect.light0.position = GLKVector4Make(1.0f, 0.7f, 0.3f, 0.0f);
 }
 - (IBAction)changeLineOfSight:(UISwitch *)sender {
+    
+}
+- (IBAction)changeLineOfSightAction:(UISegmentedControl *)sender {
     GLfloat   aspectRatio =
     (float)((GLKView *)self.view).drawableWidth /
     (float)((GLKView *)self.view).drawableHeight;
     
-    if([sender isOn])
+    if([sender selectedSegmentIndex] == 1)
     {
         //透视投影变换
         self.mBaseEffect.transform.projectionMatrix = GLKMatrix4MakeFrustum(-1.0 * aspectRatio,1.0 * aspectRatio,-1.0,1.0,1.0,120.0);
